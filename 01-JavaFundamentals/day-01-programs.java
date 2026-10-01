@@ -32,10 +32,12 @@ class Variablee{
         int age=29;
         double salary=100000;
         char grade='A';
+        boolean learningJava = true;
         System.out.println("Your Name : " +name);
             System.out.println("Your Age : " +age);
             System.out.println("Your Salary : " +salary);
             System.out.println("Your Grade : " +grade);
+          System.out.println("Your learning java : " +learningJava);
     }
 }
 --------------------------------------------------------------------------------------------------------------------
@@ -53,6 +55,22 @@ Subtraction
 Multiplication
 Division
 Modulus
+----------------------------------------------------------------------------------------------
+class Airthmetic{
+    public static void main(String[] args)
+    {
+        int a=20;
+        int b=10;
+        System.out.println("Addition is : "+(a+b));
+         System.out.println("Substraction is : "+(a-b));
+         System.out.println("Multiplication is : "+(a*b));
+         System.out.println("Division is : "+(a/b));
+         System.out.println("Modulus is : "+(a%b));
+        
+    }
+}
+
+
 Q4 — Primitive Data Types
 
 Create one variable for each of the 8 primitive data types and display their values.
