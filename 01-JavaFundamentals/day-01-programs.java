@@ -69,12 +69,34 @@ class Airthmetic{
         
     }
 }
-
-
+------------------------------------------------------------------------------------------------------------
 Q4 — Primitive Data Types
 
 Create one variable for each of the 8 primitive data types and display their values.
-
+------------------------------------------------------------------------------------------------------------
+class DataTypes{
+    public static void main(String[] args)
+    {
+        int age=29;
+        char grade='A';
+        boolean result=true;
+       // String name="Namrata Shailesh Gholave";
+        float marks=75.5f;
+        double salary=90000000;
+        long number=9088888888888888L;
+        byte a=1;
+        short n=234;
+        System.out.println("Your age : "+age);
+        System.out.println("Your grade : "+grade);
+        System.out.println("Your result : "+result);
+        System.out.println("Your marks : "+marks);
+        System.out.println("Your salary : "+salary);
+        System.out.println("Your number : "+number);
+        System.out.println(" a : "+a);
+        System.out.println(" n : "+n);
+    }
+}
+------------------------------------------------------------------------------------------------------------
 Q5 — Student Information
 
 Create variables for:
