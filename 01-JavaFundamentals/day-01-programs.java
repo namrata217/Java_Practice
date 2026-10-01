@@ -109,7 +109,25 @@ Grade
 Pass/fail status
 
 Display the student information in a readable format.
-
+------------------------------------------------------------------------------------------------------
+class StudentInfo{
+    public static void main(String[] args)
+    {
+        String name="Namrata Shailesh Gholave";
+        int rollNumber=7;
+        int age=29;
+        float marks=75.5f;
+        char grade='A';
+        boolean result=true;
+        System.out.println("Name is : "+name);
+        System.out.println("Roll number is : "+rollNumber);
+        System.out.println("Age is: "+age);
+        System.out.println("Marks is: "+marks);
+        System.out.println("Grade is: "+grade);
+        System.out.println("Result is: "+result);
+    }
+}
+------------------------------------------------------------------------------------------------------------------
 Q6 — Rectangle
 
 Create variables for length and width.
